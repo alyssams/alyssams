@@ -1,0 +1,24 @@
+{
+    "cells": [
+        {
+            "fact": "I am a native Texan! Yeehawww!!",
+            "image": "https://cl.ly/0Q1n3K431Y1S/download/logo-react-small.png"
+        },
+		{
+			"fact": "I've been called on numerous occasions a unicorn. I'd like to think it's because I love color and I a passionate about digital. ",
+			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+		},
+		{
+			"fact": "I own a beautiful kitty cat named Sadie. She's 12 years old.",
+			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+		},
+		{
+			"fact": "I love fashion and love changing my style at least twice a year...especially my hair.",
+			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+		},
+		{
+			"fact": "I love collecting pop culture prints.",
+			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+		}
+    ]
+}
