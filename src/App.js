@@ -6,15 +6,6 @@ import {
 import './App.css';
 import Home from './Home';
 import About from './About';
-import CAMilk from './projects/CAMilk';
-import Hulu from './projects/Hulu';
-import TacoBell from './projects/TacoBell';
-import Target from './projects/Target';
-import ThisIsHulu from './projects/ThisIsHulu';
-import Vivint from './projects/Vivint';
-import VW from './projects/VW';
-import VWW from './projects/VWW';
-import Nav from './Nav';
 import {
   CSSTransition,
   TransitionGroup,
@@ -25,7 +16,6 @@ class App extends Component {
 
     return (
       <div className="App">
-      <Nav/>
         <Route render={({location}) => (
           <TransitionGroup>
             <CSSTransition
@@ -36,14 +26,6 @@ class App extends Component {
               <Switch location={location}>
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
-                <Route path="/projects/CAMilk" component={CAMilk} />
-                <Route path="/projects/Hulu" component={Hulu} />
-                <Route path="/projects/TacoBell" component={TacoBell} />
-                <Route path="/projects/Target" component={Target} />
-                <Route path="/projects/ThisIsHulu" component={ThisIsHulu} />
-                <Route path="/projects/Vivint" component={Vivint} />
-                <Route path="/projects/VW" component={VW} />
-                <Route path="/projects/VWW" component={VWW} />  
               </Switch>
             </CSSTransition>
           </TransitionGroup>
